@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Expense Tracker</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <container class="hero">
+            <div class="main">
+                <div class="border">
+                <div class="title">
+                    <h1 class="header">Expense Tracker</h1>
+                </div>
+                <div class="expense-input">
+                    <h3 class="instructions">Add A New Item:</h3>
+                    <label for="name" class="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                    <label for="date" class="date">Date:</label>
+                    <input type="date" id="date" name="date">
+                    <label for="number" class="amount">Amount:</label>
+                    <input type="text" id="amount" name="amount">
+
+                    <button class="add-button">Add Expense</button>
+                    <button class="remove-all-button">Remove All Expenses</button>
+                </div>
+                <div class="main-table">
+                    <div class="finaltotals">
+                        <table class="total-table">
+                            <tr>
+                                <th class="Total">Total Expense Entries: <span class="count">0</span></th>
+                                <th class="total-cost">Total Cost: <span class="expenses">$0</span></th>
+                            </tr>
+                    
+                        </table>
+                    </div>
+                    <table class="expense-table">
+                        <tr>
+                        <th class="nametable">Name & Information</th>
+                        <th class="datetable">Date</th>
+                        <th class="amounttable">Cost</th>
+                        </tr>
+
+                    </table>
+                </div>
+        
+</div>
+            </div>
+        </container>
+
+
+        
+        <script src="app.js" async defer></script>
+    </body>
+</html>

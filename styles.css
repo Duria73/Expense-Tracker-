@@ -1,0 +1,156 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(219, 195, 195, 0.75);
+  height: 100vh;
+  width: 100vw;
+  border: 2px solid black;
+}
+
+.border {
+  border: 2px solid black;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.title {
+  justify-content: center;
+  text-align: center;
+  margin: 75px;
+  font-size: 2.5rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.instructions {
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 25px;
+}
+
+.name {
+  margin: 10px;
+  margin-top: 25px;
+  align-items: center;
+  font-size: 2rem;
+}
+
+#name {
+  border: 2px solid black;
+  width: 85%;
+  border-radius: 5px;
+}
+
+.date {
+  margin: 10px;
+  margin-top: 25px;
+  align-items: center;
+  font-size: 2rem;
+}
+
+#date {
+  border: 2px solid black;
+  width: 40%;
+  border-radius: 5px;
+}
+
+.amount {
+  margin: 10px;
+  margin-top: 25px;
+  align-items: center;
+  font-size: 2rem;
+}
+
+#amount {
+  margin-top: 10px;
+  border: 2px solid black;
+  width: 30%;
+  border-radius: 5px;
+}
+
+.add-button {
+  margin: 30px;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: cadetblue;
+  font-weight: 800;
+  font-size: 2rem;
+  border: 2px solid green;
+  border-radius: 25px;
+  width: 45%;
+}
+
+.remove-all-button {
+  margin: 30px;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: cadetblue;
+  font-weight: 800;
+  font-size: 2rem;
+  border: 2px solid green;
+  border-radius: 25px;
+  width: 45%;
+}
+
+.add-button:hover {
+  background-color: cyan;
+  transition-duration: 100ms;
+}
+
+table {
+  width: 100%;
+  border: 1px solid black;
+  table-layout: fixed;
+}
+
+th {
+  border: 1px solid black;
+  width: 100%;
+}
+
+tr {
+  width: 100%;
+}
+
+td {
+  border: 1px solid black;
+  background-color: darksalmon;
+  width: 100%;
+}
+
+th,
+tr,
+td {
+  padding: 15px;
+  text-align: left;
+}
+
+.delete {
+  text-align: right;
+  justify-content: space-between;
+}
+
+button {
+  background-color: seagreen;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 900;
+  padding: 15px;
+  margin: 0;
+  border-radius: 15px;
+}
